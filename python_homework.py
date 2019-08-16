@@ -23,7 +23,12 @@ print(f'First name is {variable_1} and last name is {variable_2}.')
 
 
 # 3. Create a function named `summer` which takes two parameters: `a` and `b`
+def summer(a, b):
+    return a + b
+
+
 # Make the function return sum of the parameters. Note: Do NOT modify the original parameters
+print(summer(3, 5))
 # Refactor the function to have default values to parameters
 # Refactor the function to have `**kwargs` and if alternate parameter `negatove` is `True` return the value as a negative sum.
 
